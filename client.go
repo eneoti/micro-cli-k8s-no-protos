@@ -12,7 +12,6 @@ import (
 
 func CallMicro(svcName string, endPoint string, body string, result interface{}) error {
 	service := k8s.NewService()
-	return nil
 	service.Init()
 	c := service.Client()
 	t := StrToMap(body)
