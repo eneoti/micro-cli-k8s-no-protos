@@ -6,7 +6,7 @@ import (
 	// "fmt"
 	// "github.com/micro/go-micro"
 	"github.com/micro/go-micro/client"
-	k8s "github.com/micro/kubernetes/go/micro"
+	k8s "github.com/micro/examples/kubernetes/go/micro"
 	"strings"
 )
 
